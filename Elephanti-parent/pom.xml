@@ -19,8 +19,8 @@
 		<android.support.version>19.1.0</android.support.version>
 
 		<robospice.spring.android.version>1.4.11</robospice.spring.android.version>
-<spring.android.jackson.version>1.9.11</spring.android.jackson.version>
-		
+		<spring.android.jackson.version>1.9.11</spring.android.jackson.version>
+
 
 
 	</properties>
@@ -94,7 +94,7 @@
 					<configuration>
 						<sdk>
 							<platform>16</platform>
-							<path>c:/android/sdk</path>
+							<path>/Applications/android/sdk</path>
 						</sdk>
 						<zipalign>
 							<verbose>true</verbose>
@@ -106,6 +106,14 @@
 					<groupId>org.codehaus.mojo</groupId>
 					<artifactId>build-helper-maven-plugin</artifactId>
 					<version>1.8</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.12.4</version>
+					<configuration>
+						<skipTests>true</skipTests>
+					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
