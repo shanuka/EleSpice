@@ -99,6 +99,7 @@
 						<zipalign>
 							<verbose>true</verbose>
 						</zipalign>
+						<device>e</device>
 						<undeployBeforeDeploy>true</undeployBeforeDeploy>
 					</configuration>
 				</plugin>
