@@ -94,7 +94,7 @@
 					<configuration>
 						<sdk>
 							<platform>16</platform>
-							<path>c:/android/sdk</path>
+							<path>c:/android/sdk/</path>
 						</sdk>
 						<zipalign>
 							<verbose>true</verbose>
