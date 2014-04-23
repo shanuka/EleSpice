@@ -44,6 +44,7 @@
 				<artifactId>android-maven-plugin</artifactId>
 				<configuration>
 					<test>
+						<!--<skip>true|false|auto</skip> -->
 						<skip>true</skip>
 						<!--<instrumentationPackage>packageName</instrumentationPackage> -->
 						`
