@@ -97,6 +97,7 @@ public class MainActivity extends Activity {
 		super.onSaveInstanceState(outState);
 	}
 
+	@SuppressWarnings("deprecation")
 	@Override
 	protected void onRestoreInstanceState(Bundle savedInstanceState) {
 		super.onRestoreInstanceState(savedInstanceState);
