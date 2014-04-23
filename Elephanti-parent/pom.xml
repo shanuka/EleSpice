@@ -99,9 +99,6 @@
 						<zipalign>
 							<verbose>true</verbose>
 						</zipalign>
-<emulator>
-            <avd>jenkins</avd>
-          </emulator>
 						<undeployBeforeDeploy>true</undeployBeforeDeploy>
 					</configuration>
 				</plugin>
